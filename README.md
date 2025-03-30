@@ -2,9 +2,15 @@
 
 ![Obsidian Crosslinker](https://img.shields.io/badge/Obsidian-Crosslinker-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-0.1.0-green)
+![Version](https://img.shields.io/badge/version-0.1.1-green)
 
 Obsidian Crosslinkerは、ノート間の関連性を高度に分析し、高品質な相互リンクを提案するObsidianプラグインです。タイトル一致、内容類似性、タグ一致などの複数の要素を組み合わせた分析により、関連ノートを自動的に検出します。
+
+## スクリーンショット
+
+![関連ノート検索画面](https://raw.githubusercontent.com/infoHiroki/obsidian-crosslinker/main/screenshots/related-notes.png)
+
+![設定画面](https://raw.githubusercontent.com/infoHiroki/obsidian-crosslinker/main/screenshots/settings.png)
 
 ## 特徴
 
@@ -32,7 +38,7 @@ Obsidian Crosslinkerは、ノート間の関連性を高度に分析し、高品
 ### 手動インストール
 
 1. [最新リリース](https://github.com/infoHiroki/obsidian-crosslinker/releases)から `main.js` と `manifest.json` をダウンロード
-2. Obsidian vaultの `.obsidian/plugins/obsidian-crosslinker/` ディレクトリに配置（ディレクトリが存在しない場合は作成）
+2. Obsidian vaultの `.obsidian/plugins/crosslinker/` ディレクトリに配置（ディレクトリが存在しない場合は作成）
 3. Obsidianを再起動し、設定からプラグインを有効化
 
 ## 設定オプション
@@ -104,9 +110,3 @@ npm run build
 - リンク品質の学習と改善
 
 ## バグ報告・機能リクエスト
-
-バグ報告や機能リクエストは[GitHub Issues](https://github.com/infoHiroki/obsidian-crosslinker/issues)で受け付けています。
-
-## ライセンス
-
-[MIT](LICENSE) © infoHirokiT
