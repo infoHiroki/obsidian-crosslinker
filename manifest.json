@@ -4,7 +4,7 @@
 	"version": "0.1.0",
 	"minAppVersion": "0.15.0",
 	"description": "ノート間の関連性を分析し、高品質な相互リンクを提案するプラグイン",
-	"author": "Your Name",
-	"authorUrl": "https://github.com/yourusername",
+	"author": "infoHirokiT",
+	"authorUrl": "https://github.com/infoHirokiT",
 	"isDesktopOnly": false
 }
