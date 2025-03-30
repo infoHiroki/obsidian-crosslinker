@@ -2,7 +2,7 @@
 
 ![Obsidian Crosslinker](https://img.shields.io/badge/Obsidian-Crosslinker-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-0.1.1-green)
+![Version](https://img.shields.io/badge/version-0.1.0-green)
 
 Obsidian Crosslinkerは、ノート間の関連性を高度に分析し、高品質な相互リンクを提案するObsidianプラグインです。タイトル一致、内容類似性、タグ一致などの複数の要素を組み合わせた分析により、関連ノートを自動的に検出します。
 
@@ -110,3 +110,9 @@ npm run build
 - リンク品質の学習と改善
 
 ## バグ報告・機能リクエスト
+
+バグ報告や機能リクエストは[GitHub Issues](https://github.com/infoHiroki/obsidian-crosslinker/issues)で受け付けています。
+
+## ライセンス
+
+[MIT](LICENSE) © infoHirokiT
