@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-crosslinker",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "ノート間の関連性を分析し、高品質な相互リンクを提案するObsidianプラグイン",
 	"main": "main.js",
 	"scripts": {
@@ -15,7 +15,7 @@
 		"links",
 		"note-taking"
 	],
-	"author": "Your Name",
+	"author": "infoHirokiT",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
