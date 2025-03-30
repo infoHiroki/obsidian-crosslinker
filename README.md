@@ -31,7 +31,7 @@ Obsidian Crosslinkerは、ノート間の関連性を高度に分析し、高品
 
 ### 手動インストール
 
-1. [最新リリース](https://github.com/infoHirokiT/obsidian-crosslinker/releases)から `main.js` と `manifest.json` をダウンロード
+1. [最新リリース](https://github.com/infoHiroki/obsidian-crosslinker/releases)から `main.js` と `manifest.json` をダウンロード
 2. Obsidian vaultの `.obsidian/plugins/obsidian-crosslinker/` ディレクトリに配置（ディレクトリが存在しない場合は作成）
 3. Obsidianを再起動し、設定からプラグインを有効化
 
@@ -49,15 +49,15 @@ Obsidian Crosslinkerは、ノート間の関連性を高度に分析し、高品
 
 Crosslinkerの関連性スコアは以下の要素を組み合わせて計算されます：
 
-1. **タイトル一致 (デフォルト60%)**: 他のノートのタイトルが内容に含まれているか
+1. **タイトル一致 (デフォルト60\%)**: 他のノートのタイトルが内容に含まれているか
    - 完全一致: 高いスコア
    - 部分一致: 中程度のスコア
 
-2. **コンテンツ類似性 (デフォルト30%)**: ノート内容の単語レベルでの共通性
+2. **コンテンツ類似性 (デフォルト30\%)**: ノート内容の単語レベルでの共通性
    - Jaccard係数をベースに計算（共通単語数/全単語数）
    - ストップワードを除外して計算
 
-3. **タグの一致 (デフォルト10%)**: ノート間で共通するタグの比率
+3. **タグの一致 (デフォルト10\%)**: ノート間で共通するタグの比率
    - Jaccard係数で計算（共通タグ数/全タグ数）
 
 各要素の重みは設定で調整可能です。
@@ -76,7 +76,7 @@ Obsidian Crosslinkerは日本語コンテンツに最適化されています：
 
 ```bash
 # リポジトリのクローン
-git clone https://github.com/infoHirokiT/obsidian-crosslinker.git
+git clone https://github.com/infoHiroki/obsidian-crosslinker.git
 cd obsidian-crosslinker
 
 # 依存関係のインストール
@@ -105,7 +105,7 @@ npm run build
 
 ## バグ報告・機能リクエスト
 
-バグ報告や機能リクエストは[GitHub Issues](https://github.com/infoHirokiT/obsidian-crosslinker/issues)で受け付けています。
+バグ報告や機能リクエストは[GitHub Issues](https://github.com/infoHiroki/obsidian-crosslinker/issues)で受け付けています。
 
 ## ライセンス
 

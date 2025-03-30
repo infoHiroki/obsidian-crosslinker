@@ -31,8 +31,8 @@ obsidian-crosslinker-plugin/
 
 1. リポジトリのクローン:
 ```bash
-git clone https://github.com/yourusername/obsidian-crosslinker-plugin.git
-cd obsidian-crosslinker-plugin
+git clone https://github.com/infoHiroki/obsidian-crosslinker.git
+cd obsidian-crosslinker
 ```
 
 2. 依存関係のインストール:
@@ -60,10 +60,10 @@ npm run dev
 2. シンボリックリンクを作成:
    ```bash
    # macOS/Linux
-   ln -s /path/to/obsidian-crosslinker-plugin /path/to/vault/.obsidian/plugins/obsidian-crosslinker
+   ln -s /path/to/obsidian-crosslinker /path/to/vault/.obsidian/plugins/obsidian-crosslinker
    
    # Windows
-   mklink /D "C:\path\to\vault\.obsidian\plugins\obsidian-crosslinker" "C:\path\to\obsidian-crosslinker-plugin"
+   mklink /D "C:\\path\\to\\vault\\.obsidian\\plugins\\obsidian-crosslinker" "C:\\path\\to\\obsidian-crosslinker"
    ```
 3. `npm run dev` を実行して監視モードでビルド
 
