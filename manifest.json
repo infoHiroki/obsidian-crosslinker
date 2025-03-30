@@ -1,7 +1,7 @@
 {
-	"id": "obsidian-crosslinker",
+	"id": "crosslinker",
 	"name": "Crosslinker",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"minAppVersion": "0.15.0",
 	"description": "ノート間の関連性を分析し、高品質な相互リンクを提案するプラグイン",
 	"author": "infoHirokiT",
